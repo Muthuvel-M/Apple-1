@@ -58,16 +58,16 @@ header{
 .nav-link-search{
     width: 1.6rem;
     height: 4.4rem;
-    background: url("search.svg") center no-repeat;
+    background: url("images/search.svg") center no-repeat;
 }
 .nav-link-bag{
     width: 1.4rem;
     height: 4.4rem;
-    background: url("bag.svg") center no-repeat;
+    background: url("images/bag.svg") center no-repeat;
 }
 /*iphone 11 pro section*/
 .iphone-11-pro{
-    background: url("iphone_11_pro_large.jpg");
+    background: url("images/iphone_11_pro_large.jpg");
    margin-top: 4.4rem;
 }
 
@@ -109,7 +109,7 @@ header{
 
 }
 .iphone-11{
-    background: url("iphone_11_large.jpg");
+    background: url("images/iphone_11_large.jpg");
 }
 .title-dark{
     color: #000;
@@ -122,11 +122,11 @@ header{
     border-bottom-color:#0070c9 ;
 }
 .Watch{
-    background: url("watch_large.jpg");
+    background: url("images/watch_large.jpg");
 }
 .title-heading-watch{
     height: 7.8rem;
-    background: url("logo_watch_large.png")  center no-repeat;
+    background: url("images/logo_watch_large.png")  center no-repeat;
     background-size: auto 7.8rem;
     margin-top: 1.6rem;
 }
@@ -146,13 +146,13 @@ header{
 
 @media screen and (max-width: 1068px){
     .iphone-11-pro{
-        background: url("iphone_11_pro_medium.jpg");
+        background: url("images/iphone_11_pro_medium.jpg");
     }
     .iphone-11{
-        background: url("iphone_11_medium.jpg");
+        background: url("images/iphone_11_medium.jpg");
     }
     .Watch{
-        background: url("watch_medium.jpg");
+        background: url("images/watch_medium.jpg");
     }
     .hero{
         height: 65rem;
@@ -172,7 +172,7 @@ header{
     }
     .title-heading-watch{
         height: 6.2rem;
-        background: url("logo_watch_medium.png") center no-repeat;
+        background: url("images/logo_watch_medium.png") center no-repeat;
         background-size: auto 6.2rem;
     }
 }
@@ -314,13 +314,13 @@ header.active{
 }
 @media screen and (max-width: 735px){
     .iphone-11-pro{
-        background: url("iphone_11_pro_small.jpg");
+        background: url("images/iphone_11_pro_small.jpg");
     }
     .iphone-11{
-        background: url("iphone_11_small.jpg");
+        background: url("images/iphone_11_small.jpg");
     }
     .Watch{
-        background: url("watch_small.jpg");
+        background: url("images/watch_small.jpg");
     }
     .hero{
         height: 50rem;
