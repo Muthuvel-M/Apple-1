@@ -67,7 +67,7 @@ header{
 }
 /*iphone 11 pro section*/
 .iphone-11-pro{
-    background: url("images/iphone_11_pro_large.jpg");
+    background: url("images/111.jpg");
    margin-top: 4.4rem;
 }
 
@@ -110,7 +110,7 @@ header{
 
 }
 .iphone-11{
-    background: url("images/iphone_11_large.jpg");
+    background: url("images/11-large.jpg");
 }
 .title-dark{
     color: #000;
@@ -175,6 +175,28 @@ header{
     border-bottom: 2px solid #66bbff;
 
 }
+.Airpodsmax{
+    background: url("air-pods-large.jpg");
+    margin-top: 1.4rem;
+  
+}
+
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.cta-link{
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+
+}
 .hero{
 
     height: 69.2rem;
@@ -190,20 +212,23 @@ header{
 }
 
 @media screen and (max-width: 1068px){
-    .iphone-11-pro{
-        background: url("images/iphone_11_pro_medium.jpg");
+     .iphone-11-pro{
+        background: url("111-medium.jpg");
     }
     .iphone-11{
-        background: url("images/iphone_11_medium.jpg");
+        background: url("11-medium.jpg");
     }
     .Watch{
-        background: url("images/watch_medium.jpg");
+        background: url("watch_medium.jpg");
     }
     .Mac{
-        background: url("images/mac-medium.jpg");
+        background-image: url("mac-medium.jpg");
     }
     .Ipad{
-        background: url("images/ipad-medium.jpg");
+        background-image: url("ipad-medium.jpg");
+    }
+    .Airpodsmax{
+        background: url("air-pods-medium.jpg");
     }
     .hero{
         height: 65rem;
@@ -364,20 +389,23 @@ header.active{
 }
 }
 @media screen and (max-width: 735px){
-    .iphone-11-pro{
-        background: url("images/iphone_11_pro_small.jpg");
+   .iphone-11-pro{
+        background: url("111-small.jpg");
     }
     .iphone-11{
-        background: url("images/iphone_11_small.jpg");
+        background: url("11-small.jpg");
     }
     .Watch{
-        background: url("images/watch_small.jpg");
+        background: url("watch_small.jpg");
     }
     .Mac{
-        background: url("images/mac-small.jpg");
+        background: url("mac-small.jpg");
     }
     .Ipad{
-        background: url("images/ipad-small.jpg");
+        background: url("ipad-small.jpg");
+    }
+    .Airpodsmax{
+        background: url("air-pods-small.jpg");
     }
     .hero{
         height: 50rem;
