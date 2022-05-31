@@ -86,10 +86,11 @@ header{
     margin-top: .6rem;
     letter-spacing: .008rem;
     font-weight: 400;
+    color: cyan;
 }
 .title-price{
     font-size: 1.7rem;
-    color: #888;
+    color: rgb(146, 146, 146);
     margin-top: .68rem;
 }
 .cta{
@@ -130,6 +131,50 @@ header{
     background-size: auto 7.8rem;
     margin-top: 1.6rem;
 }
+.Mac{
+    background: url("images/mac-large1.jpg");
+    margin-top: 1.4rem;
+  
+}
+
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.cta-link{
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+
+}
+.Ipad{
+    background: url("images/ipad-large.jpg");
+   margin-top: 1.4rem;
+  
+}
+
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.cta-link{
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+
+}
 .hero{
 
     height: 69.2rem;
@@ -153,6 +198,12 @@ header{
     }
     .Watch{
         background: url("images/watch_medium.jpg");
+    }
+    .Mac{
+        background: url("images/mac-medium.jpg");
+    }
+    .Ipad{
+        background: url("images/ipad-medium.jpg");
     }
     .hero{
         height: 65rem;
@@ -321,6 +372,12 @@ header.active{
     }
     .Watch{
         background: url("images/watch_small.jpg");
+    }
+    .Mac{
+        background: url("images/mac-small.jpg");
+    }
+    .Ipad{
+        background: url("images/ipad-small.jpg");
     }
     .hero{
         height: 50rem;
