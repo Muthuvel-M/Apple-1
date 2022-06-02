@@ -522,6 +522,17 @@ ul{
 	
 	background-color: #53d3bd;
 }
+.a  {
+    transition: all 0.3s linear;
+}
+
+a:hover  {
+    transform: scale(1.3);
+}
+
+.t:hover {
+    color: rgb(54, 50, 50);
+}
 @media(max-width: 767px){
   .footer-col{
     width: 50%;
