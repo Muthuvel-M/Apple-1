@@ -88,6 +88,36 @@ header{
     font-weight: 400;
     color: cyan;
 }
+.title-head{
+    text-align: center;
+    font-size: 4.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.title-subh{
+   
+    font-size: 3.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.title-suhe{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.detail{    
+    text-indent: 50px;
+    font-size: 2.0rem;
+    color: rgb(58, 54, 54);
+    margin-top: .68rem;
+}
 .title-price{
     font-size: 1.7rem;
     color: rgb(146, 146, 146);
@@ -242,6 +272,18 @@ header{
     }
     .title-sub-heading{
         font-size: 2.4rem;
+    }
+	.title-head{
+        font-size: 4.65rem;
+    }
+    .title-subh{
+        font-size: 3.65rem;
+    }
+    .title-suhe{
+        font-size: 2.65rem;
+    }
+    .detail{
+        font-size: 2.0rem;
     }
     .cta-link:nth-child(2){
         margin-left: 2rem;
@@ -426,6 +468,19 @@ header.active{
     margin-top: -.5rem;
     margin-bottom: 0;
 }
+.title-head{
+    font-size: 3.65rem;
+}
+.title-subh{
+    font-size: 3.35rem;
+}
+.title-suhe{
+    font-size: 2.45rem;
+}
+.detail{
+    font-size: 2.0rem;
+}	
+	
 .title-price{
     font-size: 1.4rem;
 }
